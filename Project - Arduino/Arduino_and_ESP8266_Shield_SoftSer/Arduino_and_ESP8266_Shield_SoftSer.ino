@@ -9,8 +9,8 @@ SoftwareSerial EspSerial(8, 7); // RX, TX
 ESP8266 wifi(EspSerial);
 
 char auth[] = "9bf89067fa5f48dbba9a0b6dbd55eb20";
-char networkName[] = "HTC Portable Hotspot 6283";
-char password[] = "0EA7DBBC29457";
+char networkName[] = "Samsung";
+char password[] = "xxxxxxxxxx";
 
 int lampPin = 9;
 int lampState;
